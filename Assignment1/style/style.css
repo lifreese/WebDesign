@@ -1,4 +1,7 @@
-h1 {
-  
+body{
+  background-color: powder-blue;
+}
+
+h1 { 
 border: 2px solid #333;
 }
