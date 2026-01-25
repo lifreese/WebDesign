@@ -1,15 +1,21 @@
 
 h1 { 
-  padding:  35px;
+  padding:  25px;
   text-align: center;
   background-color: lightpink;
+  font-size: 60px;
+  font-family: 'Lucida Handwriting', cursive;
 }
 
-h2, h3, h4{
+h2, h3, h4, h5{
+  padding:  25px;
   text-align: center;
   background-color: lightpink;
+  font-size: 30;
+
 }
 
 body{
   background-color:mistyrose;
+  font-size: 25;
 }
