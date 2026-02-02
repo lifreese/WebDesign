@@ -1,0 +1,40 @@
+h1 { 
+  padding:  25px;
+  text-align: center;
+  color:rgb(59, 26, 3);
+  background-color: peru;
+  font-size: 60px;
+  font-family: 'Lucida Handwriting', cursive;
+}
+
+h2, h3, h4, h5, h6{
+  padding:  25px;
+  text-align: center;
+  background-color: peru;
+  font-size: 30;
+
+}
+
+
+
+p
+{
+  width: 500;
+  text-align: left;
+  padding: 20px;
+  font-size: 20;
+}
+
+img
+{
+  padding: 10px;
+  float: right;
+  width:500;
+  height:350;
+}
+
+body
+{
+  background-color:wheat;
+}
+
