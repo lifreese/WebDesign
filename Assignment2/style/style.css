@@ -1,4 +1,5 @@
-header{ 
+header 
+{ 
   padding:  5px;
   text-align: center;
   color:rgb(59, 26, 3);
@@ -7,7 +8,17 @@ header{
   font-family: 'Lucida Handwriting', cursive;
 }
 
-h2, h3, h4, h5{
+li 
+{
+  color:rgb(59, 26, 3);
+  display: inline-block;
+  font-family: Georgia, serif;
+  padding: 25;
+}
+
+
+h2, h3, h4, h5 
+{
   padding:  25px;
   text-align: center;
   background-color: peru;
