@@ -8,7 +8,7 @@ header
   font-family: 'Lucida Handwriting', cursive;
 }
 
-li 
+li
 {
   color:rgb(59, 26, 3);
   display: inline-block;
@@ -75,6 +75,22 @@ footer
   padding-bottom: 50px;
   width:500;
   height:350;
+}
+
+.directory
+{
+  padding: 25px;
+
+  color:rgb(59, 26, 3);
+  font-family: Georgia, serif;
+}
+
+.computer
+{
+  padding: 25px;
+  display: block;
+  margin: auto;
+  width: 50%;
 }
 
 
