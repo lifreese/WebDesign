@@ -16,17 +16,13 @@ li
   padding: 25;
 }
 
-
-h2, h3, h4, h5 
+h2, h3, h4, h5, h6 
 {
   padding:  25px;
   text-align: center;
   background-color: peru;
   font-size: 30;
-
 }
-
-
 
 p
 {
@@ -56,4 +52,30 @@ footer
   background-color: peru;
   font-size: 30;
 }
+
+.Rollie
+{
+
+  float: right;
+  width: 500;
+  height: auto;
+}
+
+.art
+{
+  padding: 25px;
+  float: right;
+  width: 500;
+  height: auto;
+}
+
+.games
+{
+  padding: 10px;
+  padding-bottom: 50px;
+  width:500;
+  height:350;
+}
+
+
 
