@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html lang="english">
+
+<!--Setup Info-->
+ <head>
+
+    <meta chaset="UTF-8">
+    <title>Favorites Form</title>
+    <link rel="stylesheet" href="style/style.css">   
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+ </head>
+
+   
+<body>
+
+<!-- Navigation -->
+   <nav>
+        <ul>
+
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a href="about.html">About</a>
+            </li>
+
+            <li>
+                <a href="info.html">Info</a>
+            </li>
+
+            <li>
+              <a href="favorites.html">Favorites</a>
+            </li>
+
+            <li>
+                <a href="gallery.html">Gallery</a>
+            </li>
+            
+        </ul>
+   </nav>
+
+   <!--Table-->
+   <div class="tableheader"> <h2>Tell us About Your Favorite Game!</h2></div>
+
+   <table>
+        <tr>
+            <th>Game Title</th>
+            <th>Who Made it</th>
+            <th>When it was Released</th>
+        </tr>
+        <tbody>
+            <td>Zoo Tycoon</td>
+            <td>Blue Fang Games</td>
+            <td>2001</td>
+        </tbody>
+        <tbody>
+            <td>Bugdom</td>
+            <td>Pangea Software</td>
+            <td>1999</td>
+        </tbody>
+        <tbody>
+            <td>Secrets of Da Vinci</td>
+            <td>Kheops Studio</td>
+            <td>2009</td>
+        </tbody>
+        <tbody>
+            <td>Marble Blast: Gold!</td>
+            <td>GarageGames</td>
+            <td>2003</td>
+        </tbody>
+   </table>
+
+   <!--Form Content-->
+        <form>
+            <fieldset>
+                <legend>Share A Game You Remeber!</legend>
+
+                <!--Name Input-->
+                <label>Your Name:</label>
+                <input type="text" name="name" placeholder="e.g. Rollie McFly">
+
+                <!--Email Input-->
+                <label>Email Address:</label>
+                <input type="email" name="email" placeholder="e.g. rollie_mcfly@gmail.com">
+
+                <!--Title Input-->
+                <label>Submit a Game You Remember:</label>
+                <input type="text" name="game" placeholder="Type your game's title here">
+
+                <!--Computer Type Dropdown-->
+                <label>Operating System</label>
+                <select name="os">
+                    <option value="windows">Windows</option>
+                    <option value="apple">Apple OS</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <!--Radio Buttons-->
+                <p>Preferred System to Play on:</p>
+                <label><input type="radio" name="format" value="windows">Windows</label>
+                <label><input type="radio" name="format" value="mac">MacOS</label>
+                <label><input type="radio" name="format" value="browser">Browser</label>
+
+                <!--Checkbox-->
+                <p>
+                <label>
+                <input type="checkbox" name="subscribe" value="yes">
+                Subscribe to keep up with all the new old things we find!
+                </label>
+                </p>
+
+                <!--Submission Button-->
+                <p>
+                <button type="submit">Submit</button>
+                </p>
+            
+            </fieldset>
+        </form>
+
+    </body>
+
+</html>

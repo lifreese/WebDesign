@@ -1,0 +1,268 @@
+.pixelify-sans
+{
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+header 
+{ 
+  padding:  5px;
+  text-align: center;
+  color:rgb(59, 26, 3);
+  background-color: peru;
+  font-size: 40px;
+  font-family: 'Lucida Handwriting', cursive;
+}
+
+nav
+{
+  display:inline-block;
+  word-spacing: 25px;
+}
+
+li
+{
+  color:rgb(59, 26, 3);
+  display: inline-block;
+  font-family: Georgia, serif;
+  padding: 25;
+}
+
+h2, h3, h4, h5, h6 
+{
+  padding:  25px;
+  text-align: center;
+  background-color: peru;
+  font-size: 30;
+}
+
+p
+{
+  width: 500;
+  text-align: left;
+  padding: 20px;
+  font-size: 20;
+}
+
+img
+{
+  padding: 10px;
+  float: right;
+  width:500;
+  height:350;
+}
+
+body
+{
+  background-color:wheat;
+  font-family: "Pixelify Sans", sans-serif;
+}
+
+footer
+{
+  padding:  25px;
+  text-align: left;
+  background-color: peru;
+  font-size: 30;
+}
+
+.Rollie
+{
+
+  float: right;
+  width: 500;
+  height: auto;
+}
+
+.art
+{
+  padding: 25px;
+  float: right;
+  width: 500;
+  height: auto;
+}
+
+.games
+{
+  padding: 10px;
+  padding-bottom: 50px;
+  width:500;
+  height:350;
+}
+
+.directory
+{
+  padding: 25px;
+  color:rgb(59, 26, 3);
+  font-family: Georgia, serif;
+}
+
+.computer
+{
+  padding: 25px;
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+video
+{
+padding: 25px;
+}
+
+/* Form on favorites Page */
+form
+{
+  background-color: peru;
+  padding: 25px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: 75%;
+  margin: 0 auto;
+}
+
+fieldset
+{
+border: none;
+padding: 0;
+}
+
+legend
+{
+font-size: 1.2rem;
+font-weight: bold;
+margin-bottom: 15px;
+}
+
+label
+{
+display: block;
+margin-top: 15px;
+font-weight: bold;
+}
+
+input[type="text"],
+    input[type="email"],
+        select
+        {
+        width: 100%;
+        margin: 0 auto;
+        padding: 8px;
+        margin-top: 5px;
+        font-size: 1rem;
+        border: 1px solid #aaa;
+        border-radius: 5px;
+        box-sizing: border-box;
+        }
+
+button:hover
+{
+background-color: #86d3ff;
+}
+
+/* Table */
+
+.tableheader
+{
+text-align: center;
+padding:  25px;
+background-color: peru;
+font-size: 40px;
+}
+
+table
+{
+width: 78%;
+margin: 0 auto;
+margin-bottom: 30px;
+background-color: #fdfdfd;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+th, td
+{
+padding: 12px;
+border: 1px solid #ccc;
+text-align: left;
+}
+
+th
+{
+background-color: #f5f5f5;
+font-weight: bold;
+color:blue;
+}
+
+/* Gallery */
+
+#gallery
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px; /* spacing between images */
+  max-width: 600px; /* optional: keeps the grid from stretching too far */
+  margin: 0 auto; 
+  margin-top: 50px;
+  margin-bottom: 50px;
+  outline-style: ridge;
+  outline-width: 15px;
+  outline-color: #5a3e36;
+}
+
+#gallery img 
+{
+ width: 30%; /* three images per row (3 x 30% + gaps) */
+ height: auto;
+}
+
+.galleryheader
+{
+  padding:  5px;
+  text-align: center;
+  color:rgb(59, 26, 3);
+  background-color: peru;
+  font-size: 60px;
+  font-family: "Pixelify Sans", sans-serif;
+}
+
+.gallerysub
+{
+  text-align: center;
+  color:rgb(59, 26, 3);
+  background-color: peru;
+  font-size: 30px;
+  font-family: "Pixelify Sans", sans-serif;
+  letter-spacing: 20px;
+}
+
+@media (max-width: 600px) 
+{
+ body 
+  {
+    font-size: 14px;
+    padding: 10px;
+  }
+  nav 
+  {
+    display: block;
+    text-align: center;
+  }
+  li
+  {
+    display: block;
+    margin: 10px 0;
+  }
+  header, h2, h3, h4, h5, h6, footer
+  {
+    padding: 10px;
+  }
+}
+
+
+
+
+
+
