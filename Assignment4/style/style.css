@@ -92,10 +92,39 @@
 
 .item
 {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    padding-left: 20px;
-    padding-right: 20px;
     border-radius: 10px;
     background-color: #def1ec;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+}
+
+.item img
+{
+padding: 0;
+width: 100%;
+height: auto;
+display: block;
+border-radius: 8px;
+}
+
+.item p
+{
+text-align: center;
+display: flex;
+align-items: center;
+}
+
+.nav
+{
+display: flex;
+text-align: center;  
+background-color:#def1ec;
+}
+
+.nav li
+{
+display: inline-block;
+text-align: center; 
+padding: 25px;
 }
