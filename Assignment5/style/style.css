@@ -84,7 +84,7 @@
 .gallery
 {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     padding: 10px;
     gap: 10px;
     margin: auto;
@@ -157,4 +157,119 @@ font-size: 14px;
 width: 22px;
 margin-right: 10px;
 vertical-align: middle;
+}
+
+@media (max-width: 600px) and (max-width: 1024px)
+{
+.card-section
+{
+flex-direction: column;
+}
+}
+
+.card 
+{
+flex-direction: column;
+gap: 20px;
+padding: 20px;
+border: 10px;
+background-color: #def1ec;
+max-width: 400px;
+max-height: 550px;
+margin: 80px auto;
+}
+
+.card img
+{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card-text
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.card-section
+{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.page-wrapper
+{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.featured-section
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    align-items: start;
+}
+
+.right-column
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.featured-section .blog-preview
+{
+    max-width: 100%;
+    margin: 0;
+    padding: 10px 0;
+    gap: 10px;
+}
+
+.featured-section .blog-preview img
+{
+    width: 80px;
+}
+
+.featured-section .blog-text
+{
+    font-size: o.6rem;
+}
+
+.featured-section .post-preview
+{
+    font-size: 0.6rem;
+    line-height: 1;
+}
+
+.featured-section .post-title
+{
+    font-size: 0.8rem;
+    line-height: 1;
+}
+
+.featured-section .date
+{
+    font-size: 0.5rem;
+}
+
+.featured-section .read-more
+{
+    margin-top: 0px !important;
+}
+
+.carousel-item img
+{
+  max-height: 680px;
+  object-fit: cover;
+  width: 100%;
+  padding: 20px;
 }
