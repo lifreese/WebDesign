@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="eng">
+
     <head>
         <meta charset="UTF-8">
         <title>Flexbox Layout</title>
@@ -12,20 +13,34 @@
 
         <link rel="icon" type="images/x-icon" href="images/favicon_io/favicon.ico">
 
+        <!--
+        <style>
+            body
+            {
+                background-image: url('https://m.media-amazon.com/images/M/MV5BMDhhYWIxMzYtNTY2Zi00MTZiLWI2ZDUtYjNiNTY5YzA5MWNkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg');
+                background-repeat:no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+        </style>
+        -->
+
     </head>
 
-    <body>
 
- <!-- Navigation -->
+
+    <body> 
+
+<!-- Navigation -->
         <nav class="navbar navbar-expand-lg sticky-top bg-dark" data-bs-theme="dark">
             
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="home.html">Home</a>
+                        <a class="nav-link" aria-current="page" href="home.html">Home</a>
                     </li>
                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page"  href="blog-post.html">About</a>
+                        <a class="nav-link active"  href="blog-post.html">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link"  href="blog-episode.html">Blog</a>
@@ -44,34 +59,87 @@
             </div>
         </nav>
 
+    <!--hero-->
+    
+    <div class="hero-gallery">
+   
+        <div class ="hero-image">
 
+            <div class="hero-text">
 
-    <!--Intro Boxes-->
-    <div class="gallery-background-about">   
-         <!--Header-->
-    <div class="gallery-header">
-        <header>An Avengers Appreciation Site</header>
+                <h1>-Welcome!-</h1>
+                <h2>To the Avengers Appreciation Page!</h2>
+
+            </div>
+      
+        </div>  
+
     </div> 
-    <P>
-        <div class="gallery">
-            <div class="item-about"><p>Welcome to the Avengers appreciation page! Here we'll go through of our favorite Episodes
-                together! Re-caps, fun facts and reviews will follow!
-            </p></div>
-            <div class="item"><img src="images/avengers_brimstone.jpg" alt="Mrs. Peel as the Queen of Sin"></div>
-            <div class="item-about"><p>The Avengers is a British television show that ran from the 1950's through the 1960's. It 
-                follows the escapades of secret agents Steed and Mrs. Peel as they thwart baddies, stop nefarious plans, and 
-                fight all kinds of strange science fiction machines!
-            </p></div>
-            <div class="item"><img src="images/avengers_market.jpg" alt="Steed brings Mrs. Peel a wreath for her funeral"></div>
-            <div class="item-about"><p>When I was a kid, my grandma and I would sit and watch these episodes on VHS! It was one of 
-                our favorite things to do together and I love the show to this day! I just introduced my partner to the show 
-                and now we are enjoying watching together so I decided to make this page as a place to log our experience with the show!
-            </p></div>
-            <div class="item"><img src="images/avengers_h20.jpg" alt="Mrs. Peel trapped under the wine press by the baddies"></div>
-        </div>
-    </P>
+        
+       
+  
+  
+    <div class="card-section-header">
+        <header>-Featured Articles-</header>
+    </div>
+        <div class="card-section">
 
-    <footer class="footer">
+            <div class="card">
+                <img src="images/avengers_christmas.jpg" alt="Evil Father Christmas">
+
+                <div class="card-text">
+                    <h2> 
+                        That One Time Where Father Christmas Tried to Murder Steed
+                    </h2>
+                    
+                    <p> 
+                        Yes, you read that right. The Christmas magic man himself has it out for 
+                        Steed this episode, haunting him through surreal nightmares and affecting 
+                        his waking reality. Does Father Christmas really have Steed on his naughty/kill 
+                        list? Or is something hiding behind the mask of Christmas cheer? Let's dig into this
+                        deeply unsettling episode together!
+                    </p>
+
+                        <a href="blog-episode.html" class="read-more">Read More!</a>
+
+                </div>
+
+            </div>
+
+        
+
+
+            <div class="card">
+                <img src="images/avengers copy.webp" alt="The Bowler Hat">
+
+                <div class="card-text">
+                    <h2> 
+                        Introducing 'The Avengers' TV Show
+                    </h2>
+                    <p> 
+                        New to the series? We got you! Click here for some introductory
+                        details, facts, and episode recommendations!
+                    </p>
+
+                    <a href="blog-post.html" class="read-more">Read More!</a>
+
+                </div>
+
+            </div>
+
+        </div>
+       
+      
+
+  
+
+         
+
+        
+       
+
+        <!--footer-->
+        <footer class="footer">
 
             <div class="social-icons">
                 <img src="images/icons/Logo Instagram.png" alt="Instagram Logo">
@@ -105,4 +173,5 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
     </body>
+    
 </html>
